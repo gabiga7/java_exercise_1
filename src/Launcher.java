@@ -9,6 +9,8 @@ public class Launcher {
             String s = scanner.next();
             if (s.contentEquals("quit"))
                 System.exit(1);
+            else if (s.contentEquals("fibo"))
+                Fibo.callFibo();
             else
                 System.out.println("Unknown command");
         }
